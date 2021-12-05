@@ -385,10 +385,20 @@
               </svg></a>
           </li>
         </ul>
-
+      </div>
+      <div class="footer-subscription">
+        <p class="footer-mailing">Подпишитесь на рассылку</p>
+        <form action="" class="footer-form">
+          <input type="text" placeholder="E-mail" class="footer-mail-subscription">
+          <button type="submit" class="btn-subscription">Подписаться <svg class="footer-btn-icon" width="20"
+              height="20">
+              <use href="./images/icons.svg#icon-icon-send"></use>
+            </svg></button>
+        </form>
       </div>
     </div>
   </footer>
+  <!-- ----------------------------МОДАЛКА---------------------------- -->
   <div class="backdrop is-hidden " data-modal>
     <div class="modal">
       <button type="button" class="modal-close" data-modal-close>
@@ -425,16 +435,17 @@
             </svg>
           </div>
         </div>
-        <div class="modal-form-field">
+        <div class="modal-coment-field">
           <label for="user-text" class="modal-input-text">Комментарий</label>
           <textarea name="user-text" id="user-text" class="modal-text" placeholder="Введите текст"></textarea>
         </div>
-        <div class="modal-form-field">
+        <div class="modal-checkbox-field">
           <input type="checkbox" name="policy" id="modal-check" class="modal-check ">
           <label for="modal-check" class="modal-check-text"> <span class="span"> <svg class="icon-check" width="16"
                 height="15">
                 <use href="./images/icons.svg#icon-Vector"></use>
-              </svg></span> Соглашаюсь с рассылкой и принимаю <a href=""> Условия договора</a></label>
+              </svg></span> Соглашаюсь с рассылкой и принимаю <a href="" class="modal-link"> Условия
+              договора</a></label>
 
         </div>
         <button type="submit" class="modal-btn">Отправить</button>
